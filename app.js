@@ -26,3 +26,35 @@ function pizzaQ() {
     alert("That's right, veggies only for meeee");
   }
 }
+
+function drinkQ() {
+  let drinkP = prompt("Is an IPA my go-to pint? (yes or no)");
+  let drinkQ = drinkP.toLowerCase();
+  if (drinkQ === "yes") {
+    alert("Hell no! Guinness for the win!");
+  } else if (drinkQ === "no") {
+    alert("That's right, Guinness please.");
+  }
+}
+
+function napQ() {
+  let napP = prompt("Should I have a nap? (yes or no)");
+  let napQ = napP.toLowerCase();
+  if (napQ === "yes") {
+    alert("Yeah you're right, thank you.");
+  } else if (napQ === "no") {
+    alert("Hmm not sure about that, should probably have a nap and reassess");
+  }
+}
+
+function roomQ() {
+  let roomP = prompt(
+    "Have you ever seen The Room (2003, Tommy Wiseau)? (yes or no)"
+  );
+  let roomQ = roomP.toLowerCase();
+  if (roomQ === "yes") {
+    alert("You have been blessed, congratulations.");
+  } else if (roomQ === "no") {
+    alert("Cancel all of your evening plans.");
+  }
+}
