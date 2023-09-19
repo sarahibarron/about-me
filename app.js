@@ -1,11 +1,10 @@
-console.log("Hello there");
+"use strict";
 
 function greet() {
   let username = prompt("What is your name?");
   document.write(username + "!");
+  console.log("Hello there " + username);
 }
-
-console.log("Hello " + username);
 
 function raccoonQ() {
   let raccoonP = prompt("Do I like raccoons? (yes or no)");
@@ -15,6 +14,7 @@ function raccoonQ() {
   } else if (raccoonQ === "no") {
     alert("That's a lie! I love raccoons!");
   }
+  console.log(raccoonQ);
 }
 
 function pizzaQ() {
@@ -25,6 +25,7 @@ function pizzaQ() {
   } else if (pizzaQ === "no") {
     alert("That's right, veggies only for meeee");
   }
+  console.log(pizzaQ);
 }
 
 function drinkQ() {
@@ -35,6 +36,7 @@ function drinkQ() {
   } else if (drinkQ === "no") {
     alert("That's right, Guinness please.");
   }
+  console.log(drinkQ);
 }
 
 function napQ() {
@@ -45,6 +47,7 @@ function napQ() {
   } else if (napQ === "no") {
     alert("Hmm not sure about that, should probably have a nap and reassess");
   }
+  console.log(napP);
 }
 
 function roomQ() {
@@ -57,4 +60,5 @@ function roomQ() {
   } else if (roomQ === "no") {
     alert("Cancel all of your evening plans.");
   }
+  console.log(roomP);
 }
