@@ -24,6 +24,10 @@ ul li {
   font-size: 1rem;
 }
 
+ol li {
+  font-size: 1rem;
+}
+
 a:hover {
   background-color: #8ecae6;
   color: black;

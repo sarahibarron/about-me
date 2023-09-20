@@ -62,3 +62,25 @@ function roomQ() {
   }
   console.log(roomP);
 }
+
+function ageQ() {
+  let ageQ = prompt("How old is Sarah?");
+  let attempts = 4;
+
+  while (ageQ != 24) {
+    if (ageQ > 24) {
+      attempts--;
+      alert("Guess lower! " + attempts + " attempts left");
+    } else if (ageQ < 24) {
+      attempts--;
+      alert("Guess higher! " + attempts + " attempts left");
+    }
+    if (attempts === 0) {
+      alert("You're out of guesses!");
+      break;
+    }
+
+    ageQ = prompt("Guess again, how old is Sarah?");
+  }
+  alert("Correct! My birthday is October, buy me a gift!!!");
+}
