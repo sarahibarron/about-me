@@ -82,5 +82,7 @@ function ageQ() {
 
     ageQ = prompt("Guess again, how old is Sarah?");
   }
-  alert("Correct! My birthday is October, buy me a gift!!!");
+  alert(
+    "I'm 24! My birthday is in October so buy me a gift! (Crisp suggestions below)"
+  );
 }
