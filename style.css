@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #f2c3f4;
   font-family: monospace;
 }
 
@@ -64,4 +64,8 @@ h3 {
 
 #quiz {
   font-weight: 1rem;
+}
+
+#crisps {
+  text-align: center;
 }
